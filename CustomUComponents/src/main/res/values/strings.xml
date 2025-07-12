@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CustomList</string>
+    <string name="order_action_finish_alt">Finalizar</string>
+    <string name="order_action_free">Liberar</string>
+    <string name="concepto">Concepto</string>
+    <string name="fecha">Fecha</string>
+    <string name="supervisor">Supervisor</string>
+    <string name="cuadrilla">Cuadrilla</string>
+    <string name="direcci_n">Dirección</string>
+    <string name="guardar">Guardar</string>
+    <string name="nomina">Nomina</string>
+    <string name="tarea">Tarea</string>
+    <string name="causa_del_cierre">Causa del cierre</string>
+    <string name="diametro">Diametro</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="observaciones">Observaciones</string>
+    <string name="llave_3_1_4">Llave 3 1/4</string>
+    <string name="_0">0</string>
+    <string name="materiales">MATERIALES</string>
+    <string name="agregar">Agregar</string>
+
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+    <data>
+        <variable
+            name="onOptionOneClick"
+            type="android.view.View.OnClickListener" />
+
+        <variable
+            name="onOptionTwoClick"
+            type="android.view.View.OnClickListener" />
+
+        <variable
+            name="onOptionThreeClick"
+            type="android.view.View.OnClickListener" />
+
+        <variable
+            name="onOptionFourClick"
+            type="android.view.View.OnClickListener" />
+
+        <variable
+            name="onOptionFiveClick"
+            type="android.view.View.OnClickListener" />
+
+        <variable
+            name="onOptionSixClick"
+            type="android.view.View.OnClickListener" />
+
+        <variable
+            name="onOptionSevenClick"
+            type="android.view.View.OnClickListener" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/order_action_finish_alt"
+            android:src="@drawable/fluent_close_alternative"
+            android:layout_weight="1"
+            android:onClick="@{onOptionOneClick}"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/order_action_free"
+            android:src="@drawable/fluent_unlock"
+            android:layout_weight="1"
+            android:onClick="@{onOptionTwoClick}"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/order_action_free"
+            android:src="@drawable/fluent_change_unit"
+            android:layout_weight="1"
+            android:onClick="@{onOptionThreeClick}"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/order_action_free"
+            android:src="@drawable/fluent_copy"
+            android:layout_weight="1"
+            android:onClick="@{onOptionFourClick}"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/order_action_free"
+            android:src="@drawable/fluent_map"
+            android:layout_weight="1"
+            android:onClick="@{onOptionFiveClick}"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/order_action_free"
+            android:src="@drawable/fluent_activities"
+            android:layout_weight="1"
+            android:onClick="@{onOptionSixClick}"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/order_action_free"
+            android:src="@drawable/fluent_phone"
+            android:layout_weight="1"
+            android:onClick="@{onOptionSevenClick}"/>
+
+    </LinearLayout>
+
+</layout>
+

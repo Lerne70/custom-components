@@ -22,6 +22,9 @@ class MainActivity : AppCompatActivity() {
         binding.ctvRating.rating = 3.5f
         binding.ctvInfoCard.setData("Titulo", "Esta es una descripcion personalizada")
 
+        binding.cutomAvatar.nombreUsuario = "Luis Aranda"
+        binding.cutomAvatar.imagenUrl = "https://fastly.picsum.photos/id/237/50/50.jpg?hmac=9cCVRLgc5HmY_XbEZ4SSgnaR5CqTMUtHPZ04MCvtH-k"
+
 //        setContentView(R.layout.activity_main)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())

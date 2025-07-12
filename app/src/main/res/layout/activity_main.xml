@@ -26,6 +26,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
+        <com.lerne.customucomponents.CustomAvatarView
+            android:id="@+id/cutomAvatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
     </LinearLayout>
 
 </layout>
