@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout >
+    <data>
+        <variable
+            name="titulo"
+            type="String" />
+    </data>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:padding="8dp"
+        android:gravity="center"
+        android:textColor="@color/sapal_title"
+        android:text="@{titulo}"/>
+</layout>
